@@ -30,7 +30,7 @@ class RangeDecoderTable {
 // Implements the LZMA range decoder.
 class RangeDecoder {
   // Data being read from.
-  late final InputStreamBase _input;
+  late InputStreamBase _input;
 
   // True once initialization bytes have been loaded.
   var _initialized = false;
